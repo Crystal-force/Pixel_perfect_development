@@ -1,0 +1,1400 @@
+@import url("../fonts/4c2cde7b-ca8d-43a4-b444-5ef921356dd1.woff2");
+@import url("../fonts/cc80bf43-9aae-44c5-95b8-263702de2bca.woff");
+@import url("../fonts/6926f8fc-e5cd-4b0a-915e-b164f04fc50e.woff");
+@import url("../fonts/22a92dfa-e44e-42f4-9e96-cc4daf902a9f.woff2");
+@font-face {
+    font-family: "Frutiger LT W05_67 Bold5207403";
+    src: url("../fonts/22a92dfa-e44e-42f4-9e96-cc4daf902a9f.woff2") format("woff2"), url("../fonts/6926f8fc-e5cd-4b0a-915e-b164f04fc50e.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Frutiger LT W05_57 Condensed";
+    src: url("../fonts/4c2cde7b-ca8d-43a4-b444-5ef921356dd1.woff2") format("woff2"), url("../fonts/cc80bf43-9aae-44c5-95b8-263702de2bca.woff") format("woff");
+}
+
+* {
+    font-family: "Frutiger LT W05_67 Bold5207403", "Frutiger LT W05_57 Condensed";
+}
+
+.main-body {
+    padding-top: 133px;
+}
+
+.main-bg {
+    background: url('../images/Ebene _73.jpg');
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.main-blog {
+    max-width: 1920px;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 0;
+}
+
+.menu-blog {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+}
+
+.menu-bg {
+    background-color: #004B21;
+    width: 1920px;
+    justify-content: center;
+}
+
+.menu-part {
+    margin-top: 50px;
+    flex: none;
+}
+
+.menu-list {
+    color: white !important;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Frutiger LT W05_57 Condensed";
+    font-weight: 900;
+}
+
+.menu-list span:hover {
+    border-bottom: 2px solid white;
+}
+
+.navbar-toggler {
+    padding: 2px 4px !important
+}
+
+.navbar-toggler-icon {
+    font-size: 14px;
+}
+
+.sm-bg {
+    position: absolute;
+    top: -92%
+}
+
+.sm-bg-img {
+    width: 30%;
+}
+
+.sub-bg {
+    position: relative;
+    background: url('../images/bg_011.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 636px;
+    margin: auto;
+}
+
+.sub-title-bg {
+    position: relative;
+    background: url('../images/bg_02.png');
+    background-repeat: no-repeat;
+    display: block;
+    height: 330px;
+    margin: auto;
+    background-position: left top;
+    background-size: auto 100%;
+}
+
+.sub-title-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.md-content-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.md-content {
+    text-align: center;
+    color: #004B21;
+    font-size: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+    font-family: "Frutiger LT W05_57 Condensed";
+    font-weight: 900;
+}
+
+.md-icon-part {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.md-icon-part p {
+    justify-content: center;
+    color: #004B21;
+    font-size: 91px;
+    font-family: "Frutiger LT W05_57 Condensed";
+    font-weight: 900;
+}
+
+.md-bg-img {
+    width: 30%;
+}
+
+.icon-text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon-img {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-sm-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.icon-sm-content p {
+    color: #004B21;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Frutiger LT W05_57 Condensed";
+}
+
+.third-email a {
+    color: #004B21;
+    text-align: center;
+    font-size: 38px;
+}
+
+.second-bg {
+    background-color: #9cc315;
+    background: url('../images/Ebene_73_Kopie_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.sub-second-bg {
+    position: relative;
+    background: url('../images/bg-03.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    bottom: 80px;
+    max-width: 1920px;
+}
+
+.sub-secondpage-bg {
+    position: relative;
+    background: url('../images/bg-03.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    bottom: 110px;
+    max-width: 1920px;
+}
+
+.md-sm-bg {
+    position: absolute;
+}
+
+.md-sm-bg_2 {
+    position: absolute;
+    bottom: 90%;
+    left: 5%
+}
+
+.md-slide-text-part {
+    padding-top: 100px;
+}
+
+.md-slide-title {
+    text-align: center;
+    color: #004B21;
+    font-size: 91px;
+    font-family: "Frutiger LT W05_57 Condensed";
+    font-weight: 900;
+    margin-bottom: -16px;
+}
+
+.md-slide-content {
+    text-align: center;
+    color: white;
+    font-size: 66px;
+    font-family: "Frutiger LT W05_57 Condensed";
+    font-weight: 900;
+    text-shadow: 0px 2px 3px #a6a6ad;
+}
+
+.card {
+    box-shadow: none;
+    background: none;
+}
+
+.owl-theme .owl-nav {
+    padding-bottom: 100px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    padding: 0 0px !important;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    padding: 0 0px !important;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    padding: 0px 0px;
+    background: #CCE399 !important;
+    display: inline-block;
+}
+
+.owl-theme .owl-nav:hover [class*=owl-] {
+    padding: 0px 0px;
+    background: #CCE399 !important;
+    display: inline-block;
+}
+
+.owl-dots {
+    display: none
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.item {
+    display: none
+}
+
+.next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.item.show {
+    display: block;
+    transition-duration: 0.4s;
+    height: 430px;
+}
+
+.slide-each-title {
+    text-align: center;
+    color: #004B21;
+    font-size: 26px;
+}
+
+.slide-each-content {
+    text-align: center;
+    color: #004B21;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 543px;
+    height: 261px;
+}
+
+@media screen and (max-width: 999px) {
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+    .item {
+        display: block !important
+    }
+}
+
+.animal-select {
+    display: flex;
+    justify-content: center;
+}
+
+.radiobox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radiomark {
+    height: 29px;
+    width: 29px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid #004B21;
+}
+
+.radiobox input:checked~.radiomark {
+    background-color: #004B21;
+    border: 4px solid white;
+}
+
+.inlineBlock,
+div.inlineBlock {
+    display: inline-block;
+    color: #004B21;
+    font-size: 23px;
+    margin: 0 13px !important;
+    font-family: "Frutiger LT W05_57 Condensed";
+    flex: 1;
+}
+
+.stretched,
+p.stretched {
+    -webkit-transform: scaleY(1.3);
+    -moz-transform: scaleY(1.3);
+    -ms-transform: scaleY(1.3);
+    -o-transform: scaleY(1.3);
+    transform: scaleY(1.3);
+}
+
+.option-select {
+    display: flex;
+    align-items: center;
+    margin: 0 22px
+}
+
+#second_slide {
+    display: none;
+    padding-bottom: 195px;
+}
+
+.upload-title {
+    padding-left: 15px
+}
+
+.upload-title h1 {
+    color: #004B21;
+    font-size: 38px;
+}
+
+.upload-sm-content {
+    color: #004B21;
+    font-size: 20px;
+    font-family: "Frutiger LT W05_57 Condensed";
+}
+
+.input-file-container {
+    position: relative;
+}
+
+.js .input-file-trigger {
+    display: block;
+    padding: 13px 38px;
+    background: white;
+    color: black;
+    font-size: 44px;
+    transition: all .4s;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Frutiger LT W05_57 Condensed";
+    width: 97%;
+}
+
+.js .input-file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 225px;
+    opacity: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
+
+.js .input-file:hover+.input-file-trigger,
+.js .input-file:focus+.input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+    background: white;
+    color: black;
+}
+
+.file-return {
+    margin: 0;
+}
+
+.file-return:not(:empty) {
+    margin: 1em 0;
+}
+
+.js .file-return {
+    color: #004B21;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.js .file-return:not(:empty):before {
+    content: "Selected file: ";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.upload-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload-side-text p {
+    color: #004B21;
+    font-size: 16px;
+    margin-left: 15px;
+    font-family: "Frutiger LT W05_57 Condensed";
+}
+
+.upload-side-text p span {
+    color: #004B21;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.info-title {
+    margin-top: 28px;
+}
+
+.info-title h1 {
+    color: #004B21;
+    font-size: 32px;
+}
+
+.third-md-bg {
+    width: 80%;
+}
+
+.email-control {
+    font-family: "Frutiger LT W05_57 Condensed";
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 26px;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.info-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+.owl-stage {
+    height: 550px;
+}
+
+.info-btn a {
+    padding: 1px 82px;
+    background: #004B21;
+    border-radius: 10px;
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+    font-family: "Frutiger LT W05_57 Condensed";
+    font-weight: 900;
+}
+
+.email-sm-title {
+    display: flex;
+    justify-content: center;
+}
+
+.email-sm-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.email-sm-blog h1 {
+    color: #004B21;
+    font-size: 32px;
+    font-family: "Frutiger LT W05_57 Condensed";
+    font-weight: 600;
+}
+
+.email-sm-content {
+    display: flex;
+    justify-content: center;
+}
+
+.email-sm-content p {
+    color: #004B21;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Frutiger LT W05_57 Condensed";
+}
+
+.rule-us p {
+    color: #004B21;
+    font-size: 24px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.email-link {
+    color: #004B21;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.under-link-blog {
+    padding-top: 70px;
+    padding-bottom: 70px
+}
+
+.p3-under-link-blog {
+    padding-bottom: 70px
+}
+
+.under-each-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-link-img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bg {
+    background-color: #004B21;
+    width: 1920px;
+    /* height: 50px; */
+}
+
+.footer-menu-part {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.footer-menu {
+    color: white;
+    font-size: 16px;
+}
+
+.footer-menu a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.under-shop {
+    color: white !important;
+    font-size: 20px !important;
+    background-color: #005F27;
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.under-shop:hover {
+    color: white !important;
+    font-size: 20px !important;
+    background-color: #005F27;
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.shop-icon {
+    margin-left: -9px;
+}
+
+.email-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alert-part {
+    display: flex;
+    align-items: center;
+}
+
+.radiobox {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.item.show .radiobox {
+    display: flex;
+}
+
+.each-radiobox {
+    display: none;
+    justify-content: center;
+    margin-top: 0px !important;
+}
+
+.term-text {
+    border-bottom: 1px solid #004B21;
+}
+
+.md-single-img {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.anrede-part {
+    display: flex;
+    align-items: center;
+}
+
+.anrede-part h6 {
+    display: flex;
+    align-items: center;
+    color: #004B21;
+    font-size: 23px;
+    font-family: "Frutiger LT W05_57 Condensed";
+}
+
+.second-rule-us {
+    color: #004B21;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.second-info-btn {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.second-info-btn a {
+    padding: 10px 82px;
+    background: #004B21;
+    border-radius: 10px;
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+    font-family: "Frutiger LT W05_57 Condensed";
+    font-weight: 900;
+}
+
+.md-slide-under-text {
+    color: #004B21
+}
+
+.selected-img {
+    margin-top: 0px !important;
+    position: absolute;
+    bottom: 24%;
+    left: 46.5%;
+}
+
+.warning-icon {
+    font-size: 60px;
+    color: white;
+    border: solid 1px #004B21;
+    background-color: #004B21;
+    padding-left: 38px;
+    padding-right: 38px;
+    border-radius: 10px;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.un-sm-bg-img {
+    width: 70%
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1440px) {
+    .menu-list {
+        font-size: 22px;
+    }
+    .sub-bg {
+        height: 469px;
+    }
+    .md-content {
+        font-size: 40px;
+    }
+    .sm-bg {
+        position: absolute;
+        top: -38%;
+    }
+    .sm-bg img {
+        width: 50%;
+    }
+    .under-shop {
+        font-size: 12px !important;
+        padding: 10px 20px;
+    }
+    .inlineBlock,
+    div.inlineBlock {
+        font-size: 23px;
+    }
+    .sub-secondpage-bg {
+        background-size: cover;
+        bottom: 100px;
+    }
+    .selected-img {
+        margin-top: 0px !important;
+        position: absolute;
+        bottom: 23%;
+        left: 46.5%;
+    }
+    .md-sm-bg_2 {
+        position: absolute;
+        bottom: 87%;
+        left: 5%
+    }
+    .js .input-file-trigger {
+        padding: 13px 32px;
+        font-size: 36px;
+        width: 95%;
+    }
+    .footer-menu a {
+        font-size: 13px;
+    }
+    .footer-menu {
+        font-size: 13px;
+    }
+    .shop-icon {
+        width: 70%;
+    }
+    .third-md-bg {
+        width: 43%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .main-body {
+        padding-top: 97px;
+    }
+    .navbar-brand img {
+        width: 67%;
+    }
+    .menu-bg {
+        justify-content: space-between
+    }
+    .menu-list {
+        font-size: 22px;
+    }
+    .menu-part {
+        flex-basis: 100%;
+    }
+    .sub-bg {
+        height: 336px;
+    }
+    .navbar-toggler {
+        background-color: white
+    }
+    .md-content {
+        font-size: 33px;
+    }
+    .md-icon-part p {
+        font-size: 66px;
+    }
+    .md-slide-title {
+        font-size: 66px;
+    }
+    .md-slide-content {
+        font-size: 64px;
+    }
+    .sm-bg {
+        position: absolute;
+        top: -25%;
+    }
+    .sm-bg img {
+        width: 50%;
+    }
+    .under-each-link {
+        margin-bottom: 20px;
+    }
+    .inlineBlock,
+    div.inlineBlock {
+        font-size: 20px;
+    }
+    .owl-stage-outer {
+        height: 615px;
+    }
+    .sub-second-bg {
+        bottom: 122px;
+    }
+    .footer-menu-part {
+        display: block;
+    }
+    .under-shop {
+        margin-bottom: 15px;
+    }
+    .social-icon img {
+        width: 10%;
+    }
+    .each-checkbox {
+        font-size: 28px;
+    }
+    .selected-img {
+        margin-top: 0px !important;
+        position: absolute;
+        bottom: 32%;
+        left: 44%;
+    }
+    .md-sm-bg_2 {
+        position: absolute;
+        bottom: 88%;
+        left: 5%
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 460px;
+        height: 294px;
+    }
+    .un-sm-bg-img {
+        width: 50%
+    }
+    .third-md-bg {
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .main-body {
+        padding-top: 87px;
+    }
+    .navbar-brand img {
+        width: 57%;
+    }
+    .main-bg {
+        background-size: auto 100%;
+        background-repeat: unset;
+        padding-bottom: 58px;
+    }
+    .sub-bg {
+        height: 182px;
+    }
+    .inlineBlock,
+    div.inlineBlock {
+        font-size: 13px;
+    }
+    .md-content {
+        font-size: 25px;
+    }
+    .sm-bg {
+        display: none;
+    }
+    .md-icon-part p {
+        font-size: 48px;
+    }
+    .icon-img img {
+        width: 75%
+    }
+    .icon-text {
+        font-size: 22px;
+    }
+    .icon-sm-content p {
+        font-size: 19px;
+    }
+    .md-slide-title {
+        font-size: 48px;
+    }
+    .md-slide-content {
+        font-size: 46px;
+    }
+    .slide-each-title {
+        font-size: 22px;
+    }
+    .owl-stage-outer {
+        height: 500px;
+    }
+    .sub-second-bg {
+        bottom: 122px;
+    }
+    .menu-bg {
+        justify-content: space-between
+    }
+    .navbar-toggler {
+        background-color: white
+    }
+    .menu-list {
+        font-size: 20px;
+    }
+    .info-blog {
+        padding-left: 10px
+    }
+    .under-each-link {
+        margin-bottom: 20px;
+    }
+    .footer-menu-part {
+        display: block;
+    }
+    .under-shop {
+        margin-bottom: 15px;
+    }
+    .social-icon img {
+        width: 10%;
+    }
+    .js .input-file-trigger {
+        font-size: 27px;
+    }
+    .sub-secondpage-bg {
+        background-size: cover;
+        bottom: 80px;
+    }
+    .each-checkbox {
+        font-size: 24px;
+    }
+    .selected-img {
+        margin-top: 0px !important;
+        position: absolute;
+        bottom: 24%;
+        left: 41.5%;
+    }
+    .warning-icon {
+        font-size: 39px;
+        color: white;
+        border: solid 1px #004B21;
+        background-color: #004B21;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 7px;
+    }
+    .icon-img picture {
+        text-align: center;
+    }
+    .md-sm-bg_2 {
+        position: absolute;
+        bottom: 86%;
+        left: 5%
+    }
+    .animal-select-option {
+        width: 23px;
+        height: 23px;
+    }
+    .animal-select-opt {
+        font-size: 20px;
+    }
+    .third-md-bg {
+        width: 33%;
+    }
+    .third-email a {
+        font-size: 26px;
+    }
+    .footer-menu {
+        font-size: 18px;
+    }
+    .third-md-bg {
+        width: 23%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .main-body {
+        padding-top: 76px;
+    }
+    .navbar-brand img {
+        width: 47%;
+    }
+    .menu-bg {
+        justify-content: space-between;
+    }
+    .sub-bg {
+        height: 182px;
+    }
+    .inlineBlock,
+    div.inlineBlock {
+        font-size: 11px;
+    }
+    .md-content {
+        font-size: 25px;
+    }
+    .sm-bg {
+        display: none;
+    }
+    .md-icon-part p {
+        font-size: 48px;
+    }
+    .icon-img img {
+        width: 75%
+    }
+    .icon-text {
+        font-size: 22px;
+    }
+    .icon-sm-content p {
+        font-size: 19px;
+    }
+    .md-slide-title {
+        font-size: 38px;
+    }
+    .md-slide-content {
+        font-size: 32px;
+    }
+    .owl-stage-outer {
+        height: 515px;
+    }
+    .sub-second-bg {
+        bottom: 122px;
+    }
+    .main-bg {
+        background-size: auto 100%;
+        background-repeat: unset;
+        padding-bottom: 58px;
+    }
+    .sub-secondpage-bg {
+        background-size: cover;
+        bottom: 80px;
+    }
+    .navbar-toggler {
+        background-color: white
+    }
+    .menu-list {
+        font-size: 16px;
+    }
+    .info-blog {
+        padding-left: 10px
+    }
+    .under-each-link {
+        margin-bottom: 20px;
+    }
+    .footer-menu-part {
+        display: block;
+    }
+    .under-shop {
+        margin-bottom: 15px;
+    }
+    .social-icon img {
+        width: 10%;
+    }
+    .js .input-file-trigger {
+        font-size: 23px;
+    }
+    .upload-side-icon img {
+        width: 100%;
+    }
+    .radiobox {
+        margin-top: 21px;
+        margin-bottom: -9px;
+    }
+    .info-btn a {
+        font-size: 25px;
+    }
+    .rule-us p {
+        font-size: 12px;
+    }
+    .email-sm-blog h1 {
+        font-size: 24px
+    }
+    .email-sm-content p {
+        font-size: 18px;
+    }
+    .upload-side-text p span {
+        font-size: 17px;
+    }
+    .radiomark {
+        height: 19px;
+        width: 19px;
+    }
+    .null-alert {
+        font-size: 13px;
+    }
+    .email-control {
+        font-size: 18px;
+    }
+    .sub-bg {
+        height: 148px;
+    }
+    .each-checkbox {
+        font-size: 20px;
+    }
+    .second-info-btn a {
+        font-size: 30px;
+    }
+    .selected-img {
+        margin-top: 0px !important;
+        position: absolute;
+        bottom: 31%;
+        left: 41.5%;
+    }
+    .selected-size {
+        width: 24px;
+        height: 24px;
+    }
+    .warning-icon {
+        font-size: 25px;
+        color: white;
+        border: solid 1px #004B21;
+        background-color: #004B21;
+        padding-left: 13px;
+        padding-right: 14px;
+        border-radius: 7px;
+    }
+    .icon-img picture {
+        text-align: center;
+    }
+    .animal-select-option {
+        width: 23px;
+        height: 23px;
+    }
+    .third-md-bg {
+        width: 30%;
+    }
+    .slide-each-title {
+        font-size: 20px;
+    }
+    .third-email a {
+        font-size: 24px;
+    }
+    .animal-select-opt {
+        font-size: 18px;
+    }
+    .third-md-bg {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .main-body {
+        padding-top: 73px;
+    }
+    .navbar-brand img {
+        width: 44%;
+    }
+    .sub-bg {
+        height: 140px;
+    }
+    .sub-title-bg {
+        height: 261px;
+    }
+    .inlineBlock,
+    div.inlineBlock {
+        font-size: 10px;
+    }
+    .md-content {
+        font-size: 16px;
+    }
+    .sm-bg {
+        display: none;
+    }
+    .md-icon-part p {
+        font-size: 40px;
+    }
+    .icon-img img {
+        width: 75%
+    }
+    .icon-img picture {
+        text-align: center;
+    }
+    .icon-text {
+        font-size: 22px;
+    }
+    .icon-sm-content p {
+        font-size: 19px;
+    }
+    .md-slide-title {
+        font-size: 32px;
+    }
+    .md-slide-content {
+        font-size: 28px;
+    }
+    .owl-stage-outer {
+        height: 515px;
+    }
+    .sub-second-bg {
+        bottom: 122px;
+    }
+    .menu-bg {
+        justify-content: space-between
+    }
+    .navbar-toggler {
+        background-color: white
+    }
+    .menu-list {
+        font-size: 16px;
+    }
+    .info-blog {
+        padding-left: 10px
+    }
+    .under-each-link {
+        margin-bottom: 20px;
+    }
+    .footer-menu-part {
+        display: block;
+    }
+    .under-shop {
+        margin-bottom: 15px;
+        font-size: 18px !important;
+        padding: 4px 40px;
+    }
+    .social-icon img {
+        width: 10%;
+    }
+    .js .input-file-trigger {
+        font-size: 19px;
+    }
+    .upload-side-icon img {
+        width: 100%;
+    }
+    .radiobox {
+        margin-top: 21px;
+        margin-bottom: -9px;
+    }
+    .info-btn a {
+        font-size: 25px;
+    }
+    .rule-us p {
+        font-size: 12px;
+    }
+    .email-sm-blog h1 {
+        font-size: 24px
+    }
+    .email-sm-content p {
+        font-size: 18px;
+    }
+    .upload-side-text p span {
+        font-size: 17px;
+    }
+    .upload-title h1 {
+        font-size: 26px;
+    }
+    .info-title h1 {
+        font-size: 26px;
+    }
+    .radiomark {
+        height: 17px;
+        width: 17px;
+    }
+    .null-alert {
+        font-size: 13px;
+    }
+    .email-control {
+        font-size: 18px;
+    }
+    .sub-bg {
+        height: 148px;
+    }
+    .email-link {
+        font-size: 19px;
+    }
+    .each-checkbox {
+        font-size: 16px;
+    }
+    .second-info-btn a {
+        font-size: 22px;
+    }
+    .selected-img {
+        margin-top: 0px !important;
+        position: absolute;
+        bottom: 28%;
+        left: 38.5%;
+    }
+    .selected-size {
+        width: 24px;
+        height: 24px;
+    }
+    .warning-icon {
+        font-size: 25px;
+        color: white;
+        border: solid 1px #004B21;
+        background-color: #004B21;
+        padding-left: 13px;
+        padding-right: 14px;
+        border-radius: 7px;
+    }
+    .animal-select-option {
+        width: 20px;
+        height: 20px;
+    }
+    .third-md-bg {
+        width: 22%;
+    }
+    .slide-each-title {
+        font-size: 18px;
+    }
+    .third-email a {
+        font-size: 20px;
+    }
+    .animal-select-opt {
+        font-size: 14px;
+    }
+    .footer-menu a {
+        font-size: 13px;
+    }
+    .footer-menu {
+        font-size: 14px;
+    }
+    .third-md-bg {
+        width: 18%;
+    }
+}
